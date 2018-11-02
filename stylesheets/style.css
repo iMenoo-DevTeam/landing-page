@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Archiform';  
+  src: url(../fonts/Arciform.otf);  
+  font-weight: normal;  
+}
+
+:root {
+  --title-font: 'Archiform', sans-serif;
+  --text-font: 'Lato', sans-serif;
+  --dark-green: #32CCBC;
+  --light-green: #90F7EC;
+  --text-grey: #404245;
+  --main-gradient: linear-gradient(45deg, #32CCBC, #90F7EC);
+  --body-bg: linear-gradient(45deg, #EEF1F6, #FCFDFD);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-bg);
+  padding: 0;
+  margin: 0;
+  font-family: var(--text-font);
+}
+
+/*
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+HEADER ROW
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*/
+
+header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-logo {
+  font-family: var(--title-font);
+  color: var(--dark-green);
+}
+
+.header-navigation {
+  padding: 25px 100px;
+}
+
+.header-navigation ul {
+  padding:0;
+  margin:0;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  list-style-type: none;
+}
+
+.header-navigation ul li {
+  font-family: var(--text-font);
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.header-navigation ul .main-logo {
+  font-family: var(--title-font);
+}
+
+.header-large-image-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-large-image-wrapper img {
+  width: 85%;
+  height: 600px;
+}
+
+.home-header-text-wrapper {
+  padding: 0 100px;
+  margin-top: 150px;
+  width: 50%;
+}
+
+.home-header-text-wrapper h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.home-header-text-wrapper h3 {
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-weight: 100;
+  font-family: var(--text-font);
+}
+
+.sign-input-wrapper {
+  position: relative;
+}
+
+.sign-input-wrapper input {
+  border: 0;
+  width: 100%;
+  position: relative;
+  padding: 20px 15px;
+  line-height: 20px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 360px;
+  font-weight: 200;
+  font-size: 16px;
+  color: rgba(143, 143, 143, 0.205);
+}
+
+.sign-input-wrapper button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 0;
+  outline: 0;
+  background-color: var(--dark-green);
+  color: #fff;
+  border-radius: 360px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  justify-content: center;
+  font-size: 14px;
+  height: 40px;
+}
+
+.sign-input-wrapper button img {
+  margin-left: 10px;
+}
+
+
