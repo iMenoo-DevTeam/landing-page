@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="132px" viewBox="0 0 91 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#32CCBC" offset="0%"></stop>
+            <stop stop-color="#90F7EC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(0.000000, -953.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-2" transform="translate(-92.000000, 885.000000)">
+                <rect id="Rectangle-7-Copy-6" transform="translate(111.106557, 98.948895) scale(-1, 1) rotate(36.000000) translate(-111.106557, -98.948895) " x="108.683049" y="-21.5511048" width="4.84701487" height="241" rx="2.42350744"></rect>
+                <rect id="Rectangle-7-Copy-7" opacity="0.143965127" transform="translate(76.000000, 101.051105) scale(-1, 1) rotate(36.000000) translate(-76.000000, -101.051105) " x="70" y="-19.4488952" width="12" height="241" rx="6"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

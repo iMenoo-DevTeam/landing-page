@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="226px" viewBox="0 0 231 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#32CCBC" offset="0%"></stop>
+            <stop stop-color="#90F7EC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-793.000000, -1990.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-3-Copy-2" transform="translate(792.000000, 1989.000000)">
+                <rect id="Rectangle-7-Copy-4" opacity="0.312783062" transform="translate(126.293479, 129.035698) scale(-1, 1) rotate(36.000000) translate(-126.293479, -129.035698) " x="123.869972" y="8.5356981" width="4.84701487" height="241" rx="2.42350744"></rect>
+                <rect id="Rectangle-7-Copy-9" transform="translate(31.854619, 42.000000) scale(-1, 1) rotate(36.000000) translate(-31.854619, -42.000000) " x="29.4311115" y="-8" width="4.84701487" height="100" rx="2.42350744"></rect>
+                <rect id="Rectangle-7-Copy-5" opacity="0.312783062" transform="translate(261.568888, 183.962337) scale(-1, 1) rotate(36.000000) translate(-261.568888, -183.962337) " x="257.568888" y="63.4623372" width="8" height="241" rx="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

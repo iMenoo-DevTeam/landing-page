@@ -25,6 +25,24 @@ body {
   font-family: var(--text-font);
 }
 
+h2 {
+  font-family: var(--title-font);
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.left-deco {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.right-deco {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 /*
 *****************************************
 *****************************************
@@ -71,8 +89,10 @@ header {
   font-weight: 200;
 }
 
-.header-navigation ul .main-logo {
+.header-navigation ul .main-logo li {
   font-family: var(--title-font);
+  font-size: 20px;
+  margin-right: 20px;
 }
 
 .header-large-image-wrapper {
@@ -112,6 +132,11 @@ header {
   position: relative;
 }
 
+.sign-input-wrapper input:focus {
+  outline: 0;
+  border: 2px solid var(--dark-green);
+}
+
 .sign-input-wrapper input {
   border: 0;
   width: 100%;
@@ -122,7 +147,6 @@ header {
   border-radius: 360px;
   font-weight: 200;
   font-size: 16px;
-  color: rgba(143, 143, 143, 0.205);
 }
 
 .sign-input-wrapper button {
@@ -184,4 +208,208 @@ FEATURES ROW
 .feature-item p {
   font-size: 14px;
   font-weight: 100;
+}
+
+
+/*
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+COMO FUNCIONA ROW
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*/
+
+.how-works-wrapper {
+  padding: 0px 10%;
+  position: relative;
+}
+
+.step-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.step-text-wrapper {
+  width: 60%;
+  padding-right: 15%;
+}
+
+.step-text-wrapper.right {
+  padding-left: 10%;
+  padding-right: 0;
+}
+
+.step-text-wrapper h3 {
+  
+}
+
+.step-text-wrapper p {
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.steps-image-wrapper {
+  width: 40%
+}
+
+/*
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+TESTIMONIALS ROW
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*/
+
+.testimonials-wrapper {
+  padding: 0px 10%;
+  position: relative;
+}
+
+
+/*
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+MEDIA QUERIES
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*/
+
+@media only screen and (max-width: 800px) {
+
+  .header-navigation {
+    padding: 25px;
+  }
+
+  .header-navigation ul {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .header-navigation ul .main-logo {
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .header-navigation ul .main-logo li {
+    font-size: 30px;
+  }
+
+  .home-header-text-wrapper {
+    width: 100%;
+    margin-top: 0;
+    padding: 0 25px;
+    order: 2;
+  }
+
+  .step-wrapper {
+      flex-direction: column;
+  }
+
+  .header-large-image-wrapper {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .header-large-image-wrapper img {
+    width: 100%;
+    height: 275px;
+  }
+
+  .home-header-text-wrapper h3 {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+
+  .sign-input-wrapper input {
+    padding: 18px 15px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  .sign-input-wrapper button {
+    top: 8px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .home-header-text-wrapper h1 {
+    font-size: 28px;
+  }
+
+  .features-wrapper {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  .feature-item {
+    padding: 20px;
+    min-height: 200px;
+  }
+
+  .feature-item-wrapper {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .feature-item p {
+    padding-right: 30px;
+  }
+
+  .how-works-wrapper, .testimonials-wrapper {
+    padding: 0px 15%;
+  }
+
+  .left-deco {
+    width: 50px;
+  }
+
+  .right-deco {
+    width: 80px;
+  }
+
+  .step-text-wrapper, .step-text-wrapper.right {
+    width: 100%;
+    padding: 0;
+    order: 2;
+  }
+
+  .step-image-wrapper img {
+    width: 280px;
+    margin-bottom: 40px;
+  }
+
+  .step-image-wrapper:nth-child(1) img {
+    width: 180px;
+  }
+
+  .step-wrapper {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.185);
+  }
 }
