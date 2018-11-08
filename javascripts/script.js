@@ -1,0 +1,3 @@
+document.onload = () => {
+  $('.carousel').carousel()
+}

@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,400,700,900" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="./javascripts/script.js"></script>
   <link rel="stylesheet" href="./stylesheets/style.css">
   <link rel='shortcut icon' type='image/x-icon' href="./images/icon.ico" />
   <title>iMenoo</title>
@@ -12,8 +16,11 @@
 <body>
   <header>
     <nav class="header-navigation">
+      <div class="logo-wrapper">
+        <a class="main-logo">iMenoo</a>
+
+      </div>
       <ul>
-        <a class="main-logo"><li>iMenoo</li></a>
         <a><li>Ventajas</li></a>
         <a><li>¿Cómo funciona?</li></a>
         <a><li>Testimonios</li></a>
@@ -94,30 +101,33 @@
     <img src="./images/left-deco.svg" alt="" class="left-deco">
     <img src="./images/right-deco.svg" alt="" class="right-deco">
     <h2>Testimonios</h2>
-    <div class="step-wrapper">
-      <div class="step-text-wrapper">
-        <p>"La flexibilidad y eficiencia que nos da iMenoo es esencial. El otro día se me ocurrió una promoción para celíacos. No tardé más de 5 minutos en añadirla al menú digital y arrasó entre el público"</p>
-      </div>
-      <div class="step-image-wrapper">
-        <img src="./images/harina-logo.png" alt="">
-      </div>
-    </div>
-    <div class="step-wrapper">
-        <div class="step-image-wrapper">
-          <img src="./images/kirakira.png" alt="">
-        </div>
-          <div class="step-text-wrapper right">
-            <p>El panel de control te creará un código QR único para tu restaurante. Se actualiza automáticamente por lo que únicamente lo tendrás que imprimir una vez y ponerlo en las mesas de tu restaurante. Te permitiremos descargarlo en cualquier formato para que puedas incluirlo en tus tarjetas de visita y un link para Google +. Adios PDF desactualizado.</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p>"La comunicación con los extranjeros siempre ha sido complicada, especialmente en nuestra zona porque hay muchos. Gracias a las traducciones se atreven a probar nuevos platos y vuelven a comer continuamente."</p>
+            <img src="./images/harina-logo.png" alt="">
+            <h3>Paula Santos <span>(Manager)</span></h3>
+            <h4>Harina</h4>
+          </div>
+          <div class="carousel-item">
+            <p>"La flexibilidad y eficiencia que nos da iMenoo es esencial. El otro día se me ocurrió una promoción para celíacos. No tardé más de 5 minutos en añadirla al menú digital y arrasó entre el público"</p>
+            <img src="./images/la-encinita-logo.png" alt="">
+            <h3>Pía Garcia de la Peña <span>(Dueña)</span></h3>
+            <h4>La Encinita</h4>
+          </div>
+          <div class="carousel-item">
+            <p>"En Kira Kira somos muy cuidadosos con nuestros productos y elaboraciones y gracias a iMenoo podemos transmitir a nuestros comensales todo el trabajo que llevan nuestros platos!"</p>
+            <img src="./images/kirakira.png" alt="">
+            <h3>María José Contreras <span>(Dueña)</span></h3>
+            <h4>Kirakira</h4>
           </div>
         </div>
-        <div class="step-wrapper">
-            <div class="step-text-wrapper">
-              <p>"La flexibilidad y eficiencia que nos da iMenoo es esencial. El otro día se me ocurrió una promoción para celíacos. No tardé más de 5 minutos en añadirla al menú digital y arrasó entre el público"</p>
-            </div>
-            <div class="step-image-wrapper">
-              <img src="./images/la-encinita-logo.png" alt="">
-            </div>
-          </div>
+      </div>
 </div>
   <div class="sign-row-wrapper">
     <h2>Apúntate</h2>
