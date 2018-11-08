@@ -144,6 +144,10 @@ header .logo-wrapper {
   position: relative;
 }
 
+.sign-input-wrapper input {
+  border: 2px solid transparent;
+}
+
 .sign-input-wrapper input:focus {
   outline: 0;
   border: 2px solid var(--dark-green);
