@@ -8,6 +8,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="./javascripts/script.js"></script>
   <link rel="stylesheet" href="./stylesheets/style.css">
   <link rel='shortcut icon' type='image/x-icon' href="./images/icon.ico" />
@@ -17,8 +18,8 @@
   <header>
     <nav class="header-navigation">
       <div class="logo-wrapper">
+        <img src="./images/qr-code-logo.svg" alt="">
         <a class="main-logo">iMenoo</a>
-
       </div>
       <ul>
         <a href="#ventajas"><li>Ventajas</li></a>
@@ -31,8 +32,8 @@
       <h1>Digitaliza la carta de tu restaurante</h1>
       <h3>Digitaliza tu carta y pruébala gratis durante 30 días dejándonos tu email.</h3>
       <div class="sign-input-wrapper">
-        <input type="text" placeholder="Tu dirección de correo">
-        <button>Unirme <img src="./images/send.svg" alt=""></button>
+        <input type="email" required placeholder="Tu dirección de correo">
+        <button onclick="sendInfo(event, this)">Unirme <img src="./images/send.svg"  alt=""></button>
       </div>
     </div>
     <div class="header-large-image-wrapper">
@@ -134,8 +135,8 @@
     <div class="content-wrapper">
       <p>Estamos realizando la etapa beta del producto. Apúntate y serás el primero en recibir noticias sobre nuestro lanzamiento oficial, además de un interesante descuento para probar todas las funcionalidades!</p>
       <div class="sign-input-wrapper">
-        <input type="text" placeholder="Tu dirección de correo">
-        <button>Unirme <img src="./images/send.svg" alt=""></button>
+        <input type="email" required placeholder="Tu dirección de correo">
+        <button onclick="sendInfo(event, this)">Unirme <img src="./images/send.svg" alt=""></button>
       </div>
     </div>
   </div>
