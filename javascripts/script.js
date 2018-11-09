@@ -2,7 +2,7 @@ window.onload = () => {
   sendInfo = (e, elem) => {
     e.preventDefault();
     const email = elem.parentNode.children[0].value;
-    axios.post('https://imenoo-email-microservice.herokuapp.com/api/emai', { email })
+    axios.post('https://imenoo-email-microservice.herokuapp.com/api/email', { email })
       .then(() => {
         setTimeout(() => {
           elem.classList.remove('sending');
