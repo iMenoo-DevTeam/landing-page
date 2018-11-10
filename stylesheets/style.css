@@ -71,6 +71,7 @@ header {
   color: var(--dark-green) !important;
   font-size: 24px;
   line-height: 24px;
+  margin-top: 5px;
 }
 
 header .logo-wrapper {
@@ -79,7 +80,7 @@ header .logo-wrapper {
 }
 
 .header-navigation {
-  padding: 20px 100px;
+  padding: 20px 50px;
   display: flex;
   justify-content: space-between;
   background-color: #fff;
