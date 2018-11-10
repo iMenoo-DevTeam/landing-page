@@ -473,7 +473,7 @@ MEDIA QUERIES
   }
 
   .header-navigation {
-    padding: 25px;
+    padding: 10px 25px;
     flex-direction: column;
   }
 
@@ -483,14 +483,18 @@ MEDIA QUERIES
   }
 
   .header-navigation .main-logo {
-    width: 100%;
-    margin-bottom: 15px;
     justify-content: center;
     display: flex;
+  }
+
+  .logo-wrapper {
+    margin-bottom: 15px;
+    justify-content: center;
   }
   
   .header-navigation .main-logo {
     font-size: 30px;
+    margin-top: 5px;
   }
 
   .home-header-text-wrapper {

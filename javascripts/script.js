@@ -3,8 +3,9 @@ window.onload = () => {
     e.preventDefault();
     const email = elem.parentNode.children[0].value;
     axios.post('https://imenoo-email-microservice.herokuapp.com/api/email', { email })
-      .then(() => {
+      .then((res) => {
         setTimeout(() => {
+          console.log(res)
           elem.classList.remove('sending');
           elem.classList.add('send');
           elem.innerHTML = "¡Gracias por tu interes. Pronto nos pondremos en contacto contigo!";
