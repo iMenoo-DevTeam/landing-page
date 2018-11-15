@@ -647,7 +647,7 @@ MEDIA QUERIES
     order: 2;
   }
 
-  .step-image-wrapper img {
+  .step-image-wrapper.panel img {
     width: 280px;
     margin-bottom: 40px;
   }
@@ -667,6 +667,78 @@ MEDIA QUERIES
 
   h2 {
     margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 340px) { 
+
+  .header-navigation ul li {
+    font-size: 12px;
+  }
+  .header-large-image-wrapper img {
+    height: 200px;
+  }
+  .header-navigation .main-logo {
+    font-size: 24px;
+  }
+  .logo-wrapper img {
+    width: 30px;
+  }
+  .home-header-text-wrapper {
+    margin-top: 75px;
+  }
+  .home-header-text-wrapper h1 {
+    font-size: 23px;
+  }
+  .home-header-text-wrapper h3 {
+    font-size: 15px;
+  }
+  .sign-input-wrapper input {
+    font-size: 13px;
+  }
+  .accept-policy p {
+    font-size: 8px;
+  }
+  .feature-item h3 {
+    font-size: 18px;
+    margin-top: 15px;
+  } 
+  .feature-item p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  h2 {
+    font-size: 24px;
+    width: 60%;
+    margin-bottom: 50px;
+  }
+  .step-image-wrapper.panel img {
+    width: 250px;
+  }
+  .step-text-wrapper h3 {
+    font-size: 21px;
+  }
+  .step-text-wrapper p {
+    font-size: 13px;
+  }
+  .step-text-wrapper.right h3 {
+    margin-top: 40px;
+  }
+  .carousel-item p {
+    font-size: 18px;
+  }
+  .carousel {
+    margin: 50px 0;
+  }
+  .sign-row-wrapper .content-wrapper p {
+    font-size: 14px;
+  }
+  .sign-row-wrapper .content-wrapper .accept-policy p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .sign-row-wrapper {
+    padding: 0px 8% 50px;
   }
 }
 
